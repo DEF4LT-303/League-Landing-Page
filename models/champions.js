@@ -7,6 +7,11 @@ const ChampionSchema = new Schema({
 
   desc: {
     type: String
+  },
+
+  createdAt: {
+    type: Date,
+    default: Date.now
   }
 });
 

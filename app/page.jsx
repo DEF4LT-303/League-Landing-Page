@@ -32,6 +32,13 @@ const champions = [
 const Home = () => {
   const [selectedCardIndex, setSelectedCardIndex] = useState(null);
   const [selectedCardData, setSelectedCardData] = useState(null);
+  const [submissionSuccess, setSubmissionSuccess] = useState(false);
+  const [error, setError] = useState(false);
+
+  const hideSuccessAlert = () => {
+    setSubmissionSuccess(false);
+    setError(false);
+  };
 
   const handleCardSelect = (index) => {
     if (selectedCardIndex === index) {
@@ -53,12 +60,15 @@ const Home = () => {
         const data = await res.json();
 
         console.log(data);
+        setSubmissionSuccess(true);
+        setTimeout(hideSuccessAlert, 3000);
       } else {
-        // Handle the case when no card is selected
         console.log('No card selected');
       }
     } catch (error) {
       console.log(error);
+      setError(error);
+      setTimeout(hideSuccessAlert, 3000);
     }
   };
 
@@ -91,6 +101,43 @@ const Home = () => {
       <button className='btn btn-info mt-10' onClick={handleSubmit}>
         Send Confirmation To Tato
       </button>
+      {submissionSuccess && (
+        <div className='alert alert-success  mt-5 w-2/4'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            className='stroke-current shrink-0 h-6 w-6'
+            fill='none'
+            viewBox='0 0 24 24'
+          >
+            <path
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth='2'
+              d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
+            />
+          </svg>
+          <span>Your purchase has been confirmed!</span>
+        </div>
+      )}
+
+      {error && (
+        <div className='alert alert-error  mt-5 w-2/4'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            className='stroke-current shrink-0 h-6 w-6'
+            fill='none'
+            viewBox='0 0 24 24'
+          >
+            <path
+              strokeLinecap='round'
+              strokeLinejoin='round'
+              strokeWidth='2'
+              d='M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z'
+            />
+          </svg>
+          <span>Error! Failed to send request.</span>
+        </div>
+      )}
 
       <section className='w-full  mt-10 mb-10'>
         <h2 className='golden_gradient text-center'>Speical Notes</h2>
