@@ -25,7 +25,6 @@ const header = () => {
             Your long awaited birthday has arrived! I wanted to make something
             special for you. But the real surprise awaits ;3
           </p>
-          <button className='btn btn-primary'>BooP</button>
         </div>
       </div>
     </div>
