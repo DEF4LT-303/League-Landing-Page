@@ -16,6 +16,7 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-reveal": "^1.2.2",
     "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {

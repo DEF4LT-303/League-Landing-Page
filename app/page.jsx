@@ -4,6 +4,7 @@ import Card from '@/components/Card';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import { useState } from 'react';
+import Fade from 'react-reveal/Fade';
 import 'react-vertical-timeline-component/style.min.css';
 
 const champions = [
@@ -153,36 +154,38 @@ const Home = () => {
                     1
                   </h1>
                 </div>
-                <div className='order-1 bg-[#091428] rounded-lg shadow-xl w-5/12 px-6 py-4'>
-                  <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
-                    Some Adorable Things You Do
-                  </h3>
-                  <div className='text-sm leading-snug tracking-wide text-white text-opacity-100 font-spiegel'>
-                    <ul style={{ listStyleType: 'disc', marginLeft: '20px' }}>
-                      <li>
-                        The way you say "You're welcome" when I say thank you
-                      </li>
-                      <li>
-                        The cute expression you make when I ask you to play
-                        ranked xD
-                      </li>
-                      <li>
-                        The way you say "Where are youuu" when we play 1v1
-                      </li>
-                      <li>The way you laugh all the time</li>
-                      <li>
-                        When you send cat nom and bugcat stickers randomly
-                      </li>
-                      <li>
-                        The way you scream when you're chased by an enemy in
-                        league xD
-                      </li>
-                      <li>When you say you wanna spend time with me</li>
-                      <li>When you surprise me with your pretty selfies</li>
-                    </ul>
-                    ... and many more
+                <Fade right>
+                  <div className='order-1 bg-[#091428] rounded-lg shadow-xl w-5/12 px-6 py-4'>
+                    <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
+                      Some Adorable Things You Do
+                    </h3>
+                    <div className='text-sm leading-snug tracking-wide text-white text-opacity-100 font-spiegel'>
+                      <ul style={{ listStyleType: 'disc', marginLeft: '20px' }}>
+                        <li>
+                          The way you say "You're welcome" when I say thank you
+                        </li>
+                        <li>
+                          The cute expression you make when I ask you to play
+                          ranked xD
+                        </li>
+                        <li>
+                          The way you say "Where are youuu" when we play 1v1
+                        </li>
+                        <li>The way you laugh all the time</li>
+                        <li>
+                          When you send cat nom and bugcat stickers randomly
+                        </li>
+                        <li>
+                          The way you scream when you're chased by an enemy in
+                          league xD
+                        </li>
+                        <li>When you say you wanna spend time with me</li>
+                        <li>When you surprise me with your pretty selfies</li>
+                      </ul>
+                      ... and many more
+                    </div>
                   </div>
-                </div>
+                </Fade>
               </div>
 
               <div className='mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline'>
@@ -192,22 +195,24 @@ const Home = () => {
                     2
                   </h1>
                 </div>
-                <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-5/12 px-6 py-4'>
-                  <div className='flex flex-row gap-2 items-center'>
-                    <h3 className=' font-bold text-gray-800 text-xl font-spiegel'>
-                      The way I wanna Hug You IRL
-                    </h3>
-                    <div className='sm:w-full flex justify-end'>
-                      <img
-                        src='/assets/images/image.png'
-                        alt='hug'
-                        className='rounded-lg shadow-xl overflow-hidden'
-                        height={300}
-                        width={300}
-                      />
+                <Fade left>
+                  <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-5/12 px-6 py-4'>
+                    <div className='flex flex-row gap-2 items-center'>
+                      <h3 className=' font-bold text-gray-800 text-xl font-spiegel'>
+                        The way I wanna Hug You IRL
+                      </h3>
+                      <div className='sm:w-full flex justify-end'>
+                        <img
+                          src='/assets/images/image.png'
+                          alt='hug'
+                          className='rounded-lg shadow-xl overflow-hidden'
+                          height={300}
+                          width={300}
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
+                </Fade>
               </div>
 
               <div className='mb-8 flex justify-between items-center w-full right-timeline'>
@@ -217,16 +222,18 @@ const Home = () => {
                     3
                   </h1>
                 </div>
-                <div className='order-1 bg-[#091428] rounded-lg shadow-xl w-5/12 px-6 py-4'>
-                  <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
-                    Things I Don't Like About You
-                  </h3>
+                <Fade right>
+                  <div className='order-1 bg-[#091428] rounded-lg shadow-xl w-5/12 px-6 py-4'>
+                    <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
+                      Things I Don't Like About You
+                    </h3>
 
-                  <p className='text-sm leading-snug tracking-wide text-[#f65757] text-opacity-100 font-spiegel'>
-                    An Exception Error Has Occured: <br />
-                    Cannot dislike anything about a person who is so perfect_
-                  </p>
-                </div>
+                    <p className='text-sm leading-snug tracking-wide text-[#f65757] text-opacity-100 font-spiegel'>
+                      An Exception Error Has Occured: <br />
+                      Cannot dislike anything about a person who is so perfect_
+                    </p>
+                  </div>
+                </Fade>
               </div>
 
               <div className='mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline'>
@@ -236,17 +243,19 @@ const Home = () => {
                     4
                   </h1>
                 </div>
-                <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-5/12 px-6 py-4'>
-                  <h3 className='mb-3 font-bold text-gray-800 text-xl font-spiegel'>
-                    Final Words
-                  </h3>
-                  <p className='text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100 font-spiegel'>
-                    Happy Birthday to you Sophia. I hope you like my present :3.
-                    Thank you so much for staying by my side all this time and
-                    caring for me so much. Thank you for always cheering me up
-                    whenever I was low. I love you a lot 💖
-                  </p>
-                </div>
+                <Fade left>
+                  <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-5/12 px-6 py-4'>
+                    <h3 className='mb-3 font-bold text-gray-800 text-xl font-spiegel'>
+                      Final Words
+                    </h3>
+                    <p className='text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100 font-spiegel'>
+                      Happy Birthday to you Sophia. I hope you like my present
+                      :3. Thank you so much for staying by my side all this time
+                      and caring for me so much. Thank you for always cheering
+                      me up whenever I was low. I love you a lot 💖
+                    </p>
+                  </div>
+                </Fade>
               </div>
             </div>
           </div>
