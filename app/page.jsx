@@ -34,6 +34,7 @@ const Home = () => {
   const [selectedCardIndex, setSelectedCardIndex] = useState(null);
   const [selectedCardData, setSelectedCardData] = useState(null);
   const [submissionSuccess, setSubmissionSuccess] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState(false);
 
   const hideSuccessAlert = () => {
@@ -52,6 +53,7 @@ const Home = () => {
 
   const handleSubmit = async () => {
     try {
+      setIsSubmitting(true);
       if (selectedCardData) {
         const res = await fetch('/api/champion', {
           method: 'POST',
@@ -62,7 +64,7 @@ const Home = () => {
 
         console.log(data);
         setSubmissionSuccess(true);
-        setTimeout(hideSuccessAlert, 3000);
+        setTimeout(hideSuccessAlert, 5000);
       } else {
         console.log('No card selected');
       }
@@ -70,6 +72,8 @@ const Home = () => {
       console.log(error);
       setError(error);
       setTimeout(hideSuccessAlert, 3000);
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -99,8 +103,12 @@ const Home = () => {
           />
         ))}
       </section>
-      <button className='btn btn-info mt-10' onClick={handleSubmit}>
-        Send Confirmation To Tato
+      <button
+        className='btn btn-info mt-10'
+        onClick={handleSubmit}
+        disabled={isSubmitting}
+      >
+        {isSubmitting ? 'Submitting...' : 'Send Confirmation To Tato'}
       </button>
       {submissionSuccess && (
         <div className='alert alert-success  mt-5 w-2/4'>
