@@ -104,8 +104,12 @@ const Home = () => {
 
         <span className='blue_gradient text-center'>To My Champion Sophia</span>
 
-        <div className='divider w-3/4 mx-auto my-10'>
-          <p className='text-center font-beaufort'>Select your champion</p>
+        <div className='flex flex-col w-full border-opacity-90'>
+          <div className='divider w-3/4 mx-auto my-10'>
+            <p className='text-center font-beaufort text-[#C89B3C]'>
+              Select your champion
+            </p>
+          </div>
         </div>
       </section>
 
@@ -169,10 +173,10 @@ const Home = () => {
       <section className='w-full  mt-10 mb-10'>
         {!isMobile ? (
           <>
-            <h2 className='golden_gradient text-center'>Speical Notes</h2>
+            <h2 className='golden_gradient text-center'>Special Notes</h2>
             <div className=''>
               <div className='relative wrap overflow-hidden p-10 h-full'>
-                <div className='border-2-2 absolute border-opacity-20 border-[#F0E6D2] h-full border left-2/4'></div>
+                <div className='border-2-2 absolute border-opacity-20 border-[#C8AA6E] h-full border left-2/4'></div>
 
                 <div className='flex flex-col'>
                   <div className='mb-8 flex justify-between items-center w-full right-timeline'>
@@ -183,11 +187,11 @@ const Home = () => {
                       </h1>
                     </div>
                     <Fade right>
-                      <div className='order-1 bg-[#091428] rounded-lg shadow-xl w-5/12 px-6 py-4'>
-                        <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
+                      <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-5/12 px-6 py-4'>
+                        <h3 className='mb-3 font-bold text-gray-800 text-xl font-spiegel'>
                           Some Adorable Things You Do
                         </h3>
-                        <div className='text-sm leading-snug tracking-wide text-white text-opacity-100 font-spiegel'>
+                        <div className='text-sm leading-snug tracking-wide text-gray-800 text-opacity-100 font-spiegel'>
                           <ul
                             style={{
                               listStyleType: 'disc',
@@ -217,6 +221,7 @@ const Home = () => {
                             <li>
                               When you surprise me with your pretty selfies
                             </li>
+                            <li>When you accidentally open your camera</li>
                           </ul>
                           ... and many more
                         </div>
@@ -259,8 +264,8 @@ const Home = () => {
                       </h1>
                     </div>
                     <Fade right>
-                      <div className='order-1 bg-[#091428] rounded-lg shadow-xl w-5/12 px-6 py-4'>
-                        <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
+                      <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-5/12 px-6 py-4'>
+                        <h3 className='mb-3 font-bold text-gray-800 text-xl font-spiegel'>
                           Things I Don't Like About You
                         </h3>
 

@@ -1,7 +1,7 @@
 const header = () => {
   return (
     <div
-      className='hero max-h-screen'
+      className='hero max-h-screen z-0'
       style={{
         backgroundImage:
           'url(https://www.xtrafondos.com/en/descargar.php?id=10066&resolucion=1920x1080)',

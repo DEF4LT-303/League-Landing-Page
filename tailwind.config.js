@@ -19,5 +19,8 @@ module.exports = {
       }
     }
   },
+  daisyui: {
+    themes: ['light', 'dark', 'cupcake', 'night', 'synthwave', 'dracula']
+  },
   plugins: [require('daisyui')]
 };
