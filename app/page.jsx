@@ -31,12 +31,34 @@ const champions = [
 
 const Home = () => {
   const [selectedCardIndex, setSelectedCardIndex] = useState(null);
+  const [selectedCardData, setSelectedCardData] = useState(null);
 
   const handleCardSelect = (index) => {
     if (selectedCardIndex === index) {
       setSelectedCardIndex(null);
     } else {
       setSelectedCardIndex(index);
+      setSelectedCardData(champions[index]);
+    }
+  };
+
+  const handleSubmit = async () => {
+    try {
+      if (selectedCardData) {
+        const res = await fetch('/api/champion', {
+          method: 'POST',
+          body: JSON.stringify(selectedCardData)
+        });
+
+        const data = await res.json();
+
+        console.log(data);
+      } else {
+        // Handle the case when no card is selected
+        console.log('No card selected');
+      }
+    } catch (error) {
+      console.log(error);
     }
   };
 
@@ -66,6 +88,9 @@ const Home = () => {
           />
         ))}
       </section>
+      <button className='btn btn-info mt-10' onClick={handleSubmit}>
+        Send Confirmation To Tato
+      </button>
 
       <section className='w-full  mt-10 mb-10'>
         <h2 className='golden_gradient text-center'>Speical Notes</h2>
@@ -105,6 +130,8 @@ const Home = () => {
                         The way you scream when you're chased by an enemy in
                         league xD
                       </li>
+                      <li>When you say you wanna spend time with me</li>
+                      <li>When you surprise me with your pretty selfies</li>
                     </ul>
                     ... and many more
                   </div>
