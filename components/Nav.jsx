@@ -20,12 +20,18 @@ const Nav = ({ onThemeChange }) => {
           <li>
             <details>
               <summary>Theme</summary>
-              <ul className='p-2 bg-base-100'>
+              <ul className='p-1 bg-base-100'>
                 <li>
                   <a onClick={() => handleThemeChange('dark')}>Dark</a>
                 </li>
                 <li>
                   <a onClick={() => handleThemeChange('cupcake')}>Light</a>
+                </li>
+                <li>
+                  <a onClick={() => handleThemeChange('dracula')}>Dracula</a>
+                </li>
+                <li>
+                  <a onClick={() => handleThemeChange('synthwave')}>Synth</a>
                 </li>
               </ul>
             </details>
