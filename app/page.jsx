@@ -36,6 +36,7 @@ const Home = () => {
   const [submissionSuccess, setSubmissionSuccess] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState(false);
+  const [disabled, setDisabled] = useState(true);
 
   const hideSuccessAlert = () => {
     setSubmissionSuccess(false);
@@ -45,14 +46,19 @@ const Home = () => {
   const handleCardSelect = (index) => {
     if (selectedCardIndex === index) {
       setSelectedCardIndex(null);
+      setDisabled(true);
     } else {
       setSelectedCardIndex(index);
       setSelectedCardData(champions[index]);
+      setDisabled(false);
     }
   };
 
+  console.log(disabled);
+
   const handleSubmit = async () => {
     try {
+      setSelectedCardIndex(null);
       setIsSubmitting(true);
       await new Promise((resolve) => setTimeout(resolve, 1000));
       if (selectedCardData) {
@@ -67,14 +73,18 @@ const Home = () => {
         setSubmissionSuccess(true);
         setTimeout(hideSuccessAlert, 5000);
       } else {
+        setSelectedCardIndex(null);
         console.log('No card selected');
       }
     } catch (error) {
       console.log(error);
       setError(error);
       setTimeout(hideSuccessAlert, 3000);
+      setSelectedCardIndex(null);
     } finally {
+      setSelectedCardIndex(null);
       setIsSubmitting(false);
+      setDisabled(true);
     }
   };
 
@@ -82,15 +92,17 @@ const Home = () => {
     <>
       <Header />
       <section className='w-full flex-center flex-col'>
-        <h1 className='head_text text-center'>HAPPY BIRTHDAY!</h1>
+        <h1 className='head_text text-center'>WELCOME TO</h1>
         <br className='' />
 
-        <span className='blue_gradient text-center'>To My Champion Sophia</span>
+        <span className='blue_gradient text-center'>
+          Champion Skin Selection
+        </span>
 
         <div className='flex flex-col w-full border-opacity-90'>
           <div className='divider w-3/4 mx-auto my-10'>
             <p className='text-center font-beaufort text-[#C89B3C]'>
-              Select your champion
+              Select your champion skin
             </p>
           </div>
         </div>
@@ -111,9 +123,9 @@ const Home = () => {
       <button
         className='btn btn-info mt-10'
         onClick={handleSubmit}
-        disabled={isSubmitting}
+        disabled={isSubmitting || disabled}
       >
-        {isSubmitting ? 'Submitting...' : 'Send Confirmation To Tato'}
+        {isSubmitting ? 'Submitting...' : 'Send Confirmation'}
       </button>
       {submissionSuccess && (
         <div className='alert alert-success  mt-5 w-2/4'>
@@ -130,7 +142,7 @@ const Home = () => {
               d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
             />
           </svg>
-          <span>Tato will get you this champion now!</span>
+          <span>Order has been placed!</span>
         </div>
       )}
 
@@ -152,6 +164,7 @@ const Home = () => {
           <span>Error! Failed to send request.</span>
         </div>
       )}
+      <div className='divider w-3/4 mx-auto my-10'></div>
       <Timeline />
       <Footer />
     </>

@@ -7,13 +7,13 @@ const Nav = ({ onThemeChange }) => {
 
   const handleThemeChange = (newTheme) => {
     setTheme(newTheme);
-    onThemeChange(newTheme); // Pass the new theme to the parent component
+    onThemeChange(newTheme);
   };
 
   return (
     <div className='navbar bg-base-100'>
       <div className='flex-1'>
-        <a className='btn btn-ghost normal-case text-xl'>B-DAY!</a>
+        <a className='btn btn-ghost normal-case text-xl'>Lorem</a>
       </div>
       <div className='flex-none z-30'>
         <ul className='menu menu-horizontal px-1'>

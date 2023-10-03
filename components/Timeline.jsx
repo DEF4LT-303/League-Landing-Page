@@ -24,10 +24,10 @@ const Timeline = () => {
   }, []);
 
   return (
-    <section className='w-full  mt-10 mb-10'>
+    <section className='w-full mb-10'>
+      <h2 className='golden_gradient text-center mb-5'>Timeline</h2>
       {!isMobile ? (
         <>
-          <h2 className='golden_gradient text-center'>Special Notes</h2>
           <div className=''>
             <div className='relative wrap overflow-hidden p-10 h-full'>
               <div className='border-2-2 absolute border-opacity-20 border-[#C8AA6E] h-full border left-2/4'></div>
@@ -41,41 +41,21 @@ const Timeline = () => {
                     </h1>
                   </div>
                   <Fade right>
-                    <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-5/12 px-6 py-4'>
-                      <h3 className='mb-3 font-bold text-gray-800 text-xl font-spiegel'>
-                        Some Adorable Things You Do
+                    <div className='order-1 bg-[#091428] rounded-lg shadow-xl w-5/12 px-6 py-4'>
+                      <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
+                        Lorem Ipsum
                       </h3>
-                      <div className='text-sm leading-snug tracking-wide text-gray-800 text-opacity-100 font-spiegel'>
-                        <ul
-                          style={{
-                            listStyleType: 'disc',
-                            marginLeft: '20px'
-                          }}
-                        >
-                          <li>
-                            The way you say "You're welcome" when I say thank
-                            you
-                          </li>
-                          <li>
-                            The cute expression you make when I ask you to play
-                            ranked xD
-                          </li>
-                          <li>
-                            The way you say "Where are youuu" when we play 1v1
-                          </li>
-                          <li>The way you laugh all the time</li>
-                          <li>
-                            When you send cat nom and bugcat stickers randomly
-                          </li>
-                          <li>
-                            The way you scream when you're chased by an enemy in
-                            league xD
-                          </li>
-                          <li>When you say you wanna spend time with me</li>
-                          <li>When you surprise me with your pretty selfies</li>
-                          <li>When you accidentally open your camera</li>
-                        </ul>
-                        ... and many more
+                      <div className='text-sm leading-snug tracking-wide text-white text-opacity-100 font-spiegel'>
+                        Qui nulla aliquip ullamco dolore cillum laborum aliquip
+                        Lorem aliquip mollit proident. Labore consectetur duis
+                        proident non in proident. In culpa quis non sit esse
+                        cupidatat est. In consequat id occaecat nisi esse
+                        consectetur nostrud in labore tempor proident
+                        reprehenderit cupidatat commodo. Culpa tempor eu laborum
+                        magna eiusmod minim exercitation dolore in aliquip
+                        ullamco eu. Eu excepteur exercitation Lorem commodo
+                        culpa. Cillum amet pariatur mollit consequat Lorem Lorem
+                        sint ex est deserunt do.
                       </div>
                     </div>
                   </Fade>
@@ -92,12 +72,12 @@ const Timeline = () => {
                     <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-5/12 px-6 py-4'>
                       <div className='flex flex-row gap-2 items-center'>
                         <h3 className=' font-bold text-gray-800 text-xl font-spiegel'>
-                          The way I wanna Hug You IRL
+                          Lorem Ipsum Dolor Sit Amet
                         </h3>
                         <div className='sm:w-full flex justify-end'>
                           <img
-                            src='/assets/images/image.png'
-                            alt='hug'
+                            src='https://cdn.oneesports.gg/cdn-data/2021/11/LeagueofLegends_ArcanePosterWallpaper-450x253.jpg'
+                            alt='lorem'
                             className='rounded-lg shadow-xl overflow-hidden'
                             height={300}
                             width={300}
@@ -116,15 +96,15 @@ const Timeline = () => {
                     </h1>
                   </div>
                   <Fade right>
-                    <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-5/12 px-6 py-4'>
-                      <h3 className='mb-3 font-bold text-gray-800 text-xl font-spiegel'>
-                        Things I Don't Like About You
+                    <div className='order-1 bg-[#091428] rounded-lg shadow-xl w-5/12 px-6 py-4'>
+                      <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
+                        Lorem Ipsum Dolor Sit Amet Nulla
                       </h3>
 
-                      <p className='text-sm leading-snug tracking-wide text-[#f65757] text-opacity-100 font-spiegel'>
-                        An Exception Error Has Occured: <br />
-                        Cannot dislike anything about a person who is so
-                        perfect_
+                      <p className='text-sm leading-snug tracking-wide text-white text-opacity-100 font-spiegel'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam.
                       </p>
                     </div>
                   </Fade>
@@ -140,13 +120,31 @@ const Timeline = () => {
                   <Fade left>
                     <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-5/12 px-6 py-4'>
                       <h3 className='mb-3 font-bold text-gray-800 text-xl font-spiegel'>
-                        Final Words
+                        lorem Ipsum
                       </h3>
                       <p className='text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100 font-spiegel'>
-                        Happy Birthday to you Sophia. I hope you like my present
-                        :3. Thank you so much for staying by my side all this
-                        time and caring for me so much. Thank you for always
-                        cheering me up whenever I was low. I love you a lot 💖
+                        Amet cupidatat esse exercitation ex. Fugiat cupidatat
+                        cupidatat amet mollit proident non qui in et ipsum.
+                        Nulla minim excepteur et ullamco nostrud aliquip veniam
+                        consequat reprehenderit officia ea. Est cillum cupidatat
+                        pariatur cupidatat velit eiusmod aute reprehenderit anim
+                        do proident velit enim. Veniam minim dolore sit sunt
+                        deserunt mollit qui elit ut labore id non et nulla.
+                        Nulla minim aliquip cupidatat tempor ea esse occaecat
+                        laborum ullamco duis culpa sunt minim consequat.
+                        Deserunt aute cillum exercitation qui est voluptate amet
+                        enim velit consequat adipisicing laborum ad. Laborum est
+                        officia ut dolor sint quis magna. Mollit excepteur
+                        proident officia non aliquip minim Lorem tempor
+                        cupidatat. Adipisicing magna aute dolore non aliquip
+                        adipisicing pariatur dolore cupidatat. Eiusmod cillum
+                        culpa mollit et. Veniam velit in deserunt cillum
+                        incididunt aliqua officia labore fugiat exercitation
+                        nisi aliqua minim do. Eu esse anim do nulla ex nisi elit
+                        do dolor. Culpa minim ea nulla ea excepteur irure Lorem.
+                        Duis amet elit sit aliquip anim. Tempor laborum ad
+                        cupidatat nisi ut consectetur do deserunt do proident
+                        anim.
                       </p>
                     </div>
                   </Fade>
@@ -161,33 +159,18 @@ const Timeline = () => {
             <Fade right>
               <div className='order-1 bg-[#091428] rounded-lg shadow-xl px-6 py-4 w-4/5 my-4'>
                 <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
-                  Some Adorable Things You Do
+                  Lorem Ipsum
                 </h3>
                 <div className='text-sm leading-snug tracking-wide text-white text-opacity-100 font-spiegel'>
-                  <ul
-                    style={{
-                      listStyleType: 'disc',
-                      marginLeft: '20px'
-                    }}
-                  >
-                    <li>
-                      The way you say "You're welcome" when I say thank you
-                    </li>
-                    <li>
-                      The cute expression you make when I ask you to play ranked
-                      xD
-                    </li>
-                    <li>The way you say "Where are youuu" when we play 1v1</li>
-                    <li>The way you laugh all the time</li>
-                    <li>When you send cat nom and bugcat stickers randomly</li>
-                    <li>
-                      The way you scream when you're chased by an enemy in
-                      league xD
-                    </li>
-                    <li>When you say you wanna spend time with me</li>
-                    <li>When you surprise me with your pretty selfies</li>
-                  </ul>
-                  ... and many more
+                  Qui nulla aliquip ullamco dolore cillum laborum aliquip Lorem
+                  aliquip mollit proident. Labore consectetur duis proident non
+                  in proident. In culpa quis non sit esse cupidatat est. In
+                  consequat id occaecat nisi esse consectetur nostrud in labore
+                  tempor proident reprehenderit cupidatat commodo. Culpa tempor
+                  eu laborum magna eiusmod minim exercitation dolore in aliquip
+                  ullamco eu. Eu excepteur exercitation Lorem commodo culpa.
+                  Cillum amet pariatur mollit consequat Lorem Lorem sint ex est
+                  deserunt do.
                 </div>
               </div>
             </Fade>
@@ -196,11 +179,11 @@ const Timeline = () => {
               <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-4/5 px-6 py-4 my-4'>
                 <div className='flex flex-row gap-2 items-center'>
                   <h3 className=' font-bold text-gray-800 text-xl font-spiegel'>
-                    The way I wanna Hug You IRL
+                    Lorem Ipsum Dolor Sit Amet
                   </h3>
                   <div className='sm:w-full flex justify-end'>
                     <img
-                      src='/assets/images/image.png'
+                      src='https://cdn.oneesports.gg/cdn-data/2021/11/LeagueofLegends_ArcanePosterWallpaper-450x253.jpg'
                       alt='hug'
                       className='rounded-lg shadow-xl overflow-hidden'
                       height={300}
@@ -214,12 +197,13 @@ const Timeline = () => {
             <Fade right>
               <div className='order-1 bg-[#091428] rounded-lg shadow-xl w-4/5 px-6 py-4 my-4'>
                 <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
-                  Things I Don't Like About You
+                  Lorem Ipsum Dolor Sit Amet Nulla
                 </h3>
 
-                <p className='text-sm leading-snug tracking-wide text-[#f65757] text-opacity-100 font-spiegel'>
-                  An Exception Error Has Occured: <br />
-                  Cannot dislike anything about a person who is so perfect_
+                <p className='text-sm leading-snug tracking-wide text-white text-opacity-100 font-spiegel'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
                 </p>
               </div>
             </Fade>
@@ -227,13 +211,28 @@ const Timeline = () => {
             <Fade left>
               <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-4/5 px-6 py-4 my-4'>
                 <h3 className='mb-3 font-bold text-gray-800 text-xl font-spiegel'>
-                  Final Words
+                  lorem Ipsum
                 </h3>
                 <p className='text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100 font-spiegel'>
-                  Happy Birthday to you Sophia. I hope you like my present :3.
-                  Thank you so much for staying by my side all this time and
-                  caring for me so much. Thank you for always cheering me up
-                  whenever I was low. I love you a lot 💖
+                  Amet cupidatat esse exercitation ex. Fugiat cupidatat
+                  cupidatat amet mollit proident non qui in et ipsum. Nulla
+                  minim excepteur et ullamco nostrud aliquip veniam consequat
+                  reprehenderit officia ea. Est cillum cupidatat pariatur
+                  cupidatat velit eiusmod aute reprehenderit anim do proident
+                  velit enim. Veniam minim dolore sit sunt deserunt mollit qui
+                  elit ut labore id non et nulla. Nulla minim aliquip cupidatat
+                  tempor ea esse occaecat laborum ullamco duis culpa sunt minim
+                  consequat. Deserunt aute cillum exercitation qui est voluptate
+                  amet enim velit consequat adipisicing laborum ad. Laborum est
+                  officia ut dolor sint quis magna. Mollit excepteur proident
+                  officia non aliquip minim Lorem tempor cupidatat. Adipisicing
+                  magna aute dolore non aliquip adipisicing pariatur dolore
+                  cupidatat. Eiusmod cillum culpa mollit et. Veniam velit in
+                  deserunt cillum incididunt aliqua officia labore fugiat
+                  exercitation nisi aliqua minim do. Eu esse anim do nulla ex
+                  nisi elit do dolor. Culpa minim ea nulla ea excepteur irure
+                  Lorem. Duis amet elit sit aliquip anim. Tempor laborum ad
+                  cupidatat nisi ut consectetur do deserunt do proident anim.
                 </p>
               </div>
             </Fade>

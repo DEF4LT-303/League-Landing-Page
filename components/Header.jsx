@@ -18,12 +18,9 @@ const header = () => {
       </div>
       <div className='hero-content text-center text-[#F0E6D2]'>
         <div className='max-w-lg'>
-          <h1 className='mb-5 text-5xl font-bold font-beaufort'>
-            Surprise Surprise!
-          </h1>
+          <h1 className='mb-5 text-5xl font-bold font-beaufort'>Lorem Ipsum</h1>
           <p className='mb-5 font-spiegel'>
-            Your long awaited birthday has arrived! I wanted to make something
-            special for you. But the real surprise awaits ;3
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
           </p>
         </div>
       </div>
