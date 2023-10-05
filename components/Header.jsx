@@ -9,7 +9,7 @@ const header = () => {
       }}
     >
       <div className='hero-overlay bg-opacity-60'></div>
-      <div className='justify-center items-center flex flex-col'>
+      <div className='sm:flex hidden'>
         <img
           src='lol.svg'
           alt='Logo'
@@ -18,9 +18,9 @@ const header = () => {
       </div>
       <div className='hero-content text-center text-[#F0E6D2]'>
         <div className='max-w-lg'>
-          <h1 className='mb-5 text-5xl font-bold font-beaufort'>Lorem Ipsum</h1>
+          <h1 className='mb-5 text-5xl font-bold font-beaufort'>League Of Legends</h1>
           <p className='mb-5 font-spiegel'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          With more than 140 champions, you’ll find the perfect match for your playstyle. Master one, or master them all.
           </p>
         </div>
       </div>

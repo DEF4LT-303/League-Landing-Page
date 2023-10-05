@@ -43,19 +43,15 @@ const Timeline = () => {
                   <Fade right>
                     <div className='order-1 bg-[#091428] rounded-lg shadow-xl w-5/12 px-6 py-4'>
                       <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
-                        Lorem Ipsum
+                      YORICK, THE SHEPHERD OF SOULS
                       </h3>
                       <div className='text-sm leading-snug tracking-wide text-white text-opacity-100 font-spiegel'>
-                        Qui nulla aliquip ullamco dolore cillum laborum aliquip
-                        Lorem aliquip mollit proident. Labore consectetur duis
-                        proident non in proident. In culpa quis non sit esse
-                        cupidatat est. In consequat id occaecat nisi esse
-                        consectetur nostrud in labore tempor proident
-                        reprehenderit cupidatat commodo. Culpa tempor eu laborum
-                        magna eiusmod minim exercitation dolore in aliquip
-                        ullamco eu. Eu excepteur exercitation Lorem commodo
-                        culpa. Cillum amet pariatur mollit consequat Lorem Lorem
-                        sint ex est deserunt do.
+                      The last survivor of a long-forgotten religious order, 
+                      Yorick is both blessed and cursed with power over the dead. 
+                      Trapped on the Shadow Isles, his only companions are the rotting 
+                      corpses and shrieking spirits that he gathers to him. Yorick’s monstrous 
+                      actions belie his noble purpose: to free his home from the curse of the 
+                      Ruination.
                       </div>
                     </div>
                   </Fade>
@@ -72,7 +68,7 @@ const Timeline = () => {
                     <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-5/12 px-6 py-4'>
                       <div className='flex flex-row gap-2 items-center'>
                         <h3 className=' font-bold text-gray-800 text-xl font-spiegel'>
-                          Lorem Ipsum Dolor Sit Amet
+                        Arcane: League of Legends
                         </h3>
                         <div className='sm:w-full flex justify-end'>
                           <img
@@ -98,13 +94,16 @@ const Timeline = () => {
                   <Fade right>
                     <div className='order-1 bg-[#091428] rounded-lg shadow-xl w-5/12 px-6 py-4'>
                       <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
-                        Lorem Ipsum Dolor Sit Amet Nulla
+                        Senna, The Black Mist
                       </h3>
 
                       <p className='text-sm leading-snug tracking-wide text-white text-opacity-100 font-spiegel'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam.
+                      Cursed from childhood to be haunted by the supernatural Black Mist, Senna joined a sacred order
+                      known as the Sentinels of Light Crest icon Sentinels of Light, and fiercely fought back—only to be killed: 
+                      her soul imprisoned in a lantern by the cruel wraith Thresh Thresh. But refusing to lose hope, within the 
+                      lantern Senna learned to use the Mist, and reemerged to new life, forever changed. Now wielding darkness 
+                      along with light, Senna seeks to end the Black Mist by turning it against itself—with every blast of her relic 
+                      weapon, redeeming the souls lost within.
                       </p>
                     </div>
                   </Fade>
@@ -120,31 +119,13 @@ const Timeline = () => {
                   <Fade left>
                     <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-5/12 px-6 py-4'>
                       <h3 className='mb-3 font-bold text-gray-800 text-xl font-spiegel'>
-                        lorem Ipsum
+                      Jhin, The Psychopath
                       </h3>
                       <p className='text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100 font-spiegel'>
-                        Amet cupidatat esse exercitation ex. Fugiat cupidatat
-                        cupidatat amet mollit proident non qui in et ipsum.
-                        Nulla minim excepteur et ullamco nostrud aliquip veniam
-                        consequat reprehenderit officia ea. Est cillum cupidatat
-                        pariatur cupidatat velit eiusmod aute reprehenderit anim
-                        do proident velit enim. Veniam minim dolore sit sunt
-                        deserunt mollit qui elit ut labore id non et nulla.
-                        Nulla minim aliquip cupidatat tempor ea esse occaecat
-                        laborum ullamco duis culpa sunt minim consequat.
-                        Deserunt aute cillum exercitation qui est voluptate amet
-                        enim velit consequat adipisicing laborum ad. Laborum est
-                        officia ut dolor sint quis magna. Mollit excepteur
-                        proident officia non aliquip minim Lorem tempor
-                        cupidatat. Adipisicing magna aute dolore non aliquip
-                        adipisicing pariatur dolore cupidatat. Eiusmod cillum
-                        culpa mollit et. Veniam velit in deserunt cillum
-                        incididunt aliqua officia labore fugiat exercitation
-                        nisi aliqua minim do. Eu esse anim do nulla ex nisi elit
-                        do dolor. Culpa minim ea nulla ea excepteur irure Lorem.
-                        Duis amet elit sit aliquip anim. Tempor laborum ad
-                        cupidatat nisi ut consectetur do deserunt do proident
-                        anim.
+                      Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionian prisoner, but freed by shadowy 
+                      elements within Ionia’s ruling council, the serial killer now works as their cabal's assassin. Using his gun as his 
+                      paintbrush, Jhin creates works of artistic brutality, horrifying victims and onlookers. He gains a cruel pleasure from 
+                      putting on his gruesome theater, making him the ideal choice to send the most powerful of messages: terror.
                       </p>
                     </div>
                   </Fade>
@@ -159,18 +140,15 @@ const Timeline = () => {
             <Fade right>
               <div className='order-1 bg-[#091428] rounded-lg shadow-xl px-6 py-4 w-4/5 my-4'>
                 <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
-                  Lorem Ipsum
+                YORICK, THE SHEPHERD OF SOULS
                 </h3>
                 <div className='text-sm leading-snug tracking-wide text-white text-opacity-100 font-spiegel'>
-                  Qui nulla aliquip ullamco dolore cillum laborum aliquip Lorem
-                  aliquip mollit proident. Labore consectetur duis proident non
-                  in proident. In culpa quis non sit esse cupidatat est. In
-                  consequat id occaecat nisi esse consectetur nostrud in labore
-                  tempor proident reprehenderit cupidatat commodo. Culpa tempor
-                  eu laborum magna eiusmod minim exercitation dolore in aliquip
-                  ullamco eu. Eu excepteur exercitation Lorem commodo culpa.
-                  Cillum amet pariatur mollit consequat Lorem Lorem sint ex est
-                  deserunt do.
+                The last survivor of a long-forgotten religious order, 
+                      Yorick is both blessed and cursed with power over the dead. 
+                      Trapped on the Shadow Isles, his only companions are the rotting 
+                      corpses and shrieking spirits that he gathers to him. Yorick’s monstrous 
+                      actions belie his noble purpose: to free his home from the curse of the 
+                      Ruination.
                 </div>
               </div>
             </Fade>
@@ -179,7 +157,7 @@ const Timeline = () => {
               <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-4/5 px-6 py-4 my-4'>
                 <div className='flex flex-row gap-2 items-center'>
                   <h3 className=' font-bold text-gray-800 text-xl font-spiegel'>
-                    Lorem Ipsum Dolor Sit Amet
+                  Arcane: League of Legends
                   </h3>
                   <div className='sm:w-full flex justify-end'>
                     <img
@@ -197,13 +175,15 @@ const Timeline = () => {
             <Fade right>
               <div className='order-1 bg-[#091428] rounded-lg shadow-xl w-4/5 px-6 py-4 my-4'>
                 <h3 className='mb-3 font-bold text-white text-xl font-spiegel'>
-                  Lorem Ipsum Dolor Sit Amet Nulla
+                  Senna, The Black Mist
                 </h3>
 
                 <p className='text-sm leading-snug tracking-wide text-white text-opacity-100 font-spiegel'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
+                Cursed from childhood to be haunted by the supernatural Black Mist, Senna joined a sacred order
+                known as the Sentinels of Light Crest icon Sentinels of Light, and fiercely fought back—only to be killed:                   her soul imprisoned in a lantern by the cruel wraith Thresh Thresh. But refusing to lose hope, within the 
+                lantern Senna learned to use the Mist, and reemerged to new life, forever changed. Now wielding darkness 
+                along with light, Senna seeks to end the Black Mist by turning it against itself—with every blast of her relic 
+                weapon, redeeming the souls lost within.
                 </p>
               </div>
             </Fade>
@@ -211,28 +191,13 @@ const Timeline = () => {
             <Fade left>
               <div className='order-1 bg-[#F0E6D2] rounded-lg shadow-xl w-4/5 px-6 py-4 my-4'>
                 <h3 className='mb-3 font-bold text-gray-800 text-xl font-spiegel'>
-                  lorem Ipsum
+                  Jhin, The Psychopath
                 </h3>
                 <p className='text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100 font-spiegel'>
-                  Amet cupidatat esse exercitation ex. Fugiat cupidatat
-                  cupidatat amet mollit proident non qui in et ipsum. Nulla
-                  minim excepteur et ullamco nostrud aliquip veniam consequat
-                  reprehenderit officia ea. Est cillum cupidatat pariatur
-                  cupidatat velit eiusmod aute reprehenderit anim do proident
-                  velit enim. Veniam minim dolore sit sunt deserunt mollit qui
-                  elit ut labore id non et nulla. Nulla minim aliquip cupidatat
-                  tempor ea esse occaecat laborum ullamco duis culpa sunt minim
-                  consequat. Deserunt aute cillum exercitation qui est voluptate
-                  amet enim velit consequat adipisicing laborum ad. Laborum est
-                  officia ut dolor sint quis magna. Mollit excepteur proident
-                  officia non aliquip minim Lorem tempor cupidatat. Adipisicing
-                  magna aute dolore non aliquip adipisicing pariatur dolore
-                  cupidatat. Eiusmod cillum culpa mollit et. Veniam velit in
-                  deserunt cillum incididunt aliqua officia labore fugiat
-                  exercitation nisi aliqua minim do. Eu esse anim do nulla ex
-                  nisi elit do dolor. Culpa minim ea nulla ea excepteur irure
-                  Lorem. Duis amet elit sit aliquip anim. Tempor laborum ad
-                  cupidatat nisi ut consectetur do deserunt do proident anim.
+                Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionian prisoner, but freed by shadowy 
+                elements within Ionia’s ruling council, the serial killer now works as their cabal's assassin. Using his gun as his 
+                paintbrush, Jhin creates works of artistic brutality, horrifying victims and onlookers. He gains a cruel pleasure from 
+                putting on his gruesome theater, making him the ideal choice to send the most powerful of messages: terror.
                 </p>
               </div>
             </Fade>

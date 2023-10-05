@@ -13,7 +13,7 @@ const Nav = ({ onThemeChange }) => {
   return (
     <div className='navbar bg-base-100'>
       <div className='flex-1'>
-        <a className='btn btn-ghost normal-case text-xl'>Lorem</a>
+        <a className='btn btn-ghost normal-case text-xl'>League Of Legends</a>
       </div>
       <div className='flex-none z-30'>
         <ul className='menu menu-horizontal px-1'>

@@ -2,7 +2,7 @@
 
 const Card = ({ name, desc, img, onSelect, isSelected }) => {
   return (
-    <div className='card  w-96 h-auto  shadow-xl mt-5  bg-[#1E282D]'>
+    <div className='card w-96 h-auto shadow-xl mt-5 mx-2  bg-[#1E282D]'>
       <figure>
         <img src={img} alt={name} className='h-80 w-full object-cover' />
       </figure>
