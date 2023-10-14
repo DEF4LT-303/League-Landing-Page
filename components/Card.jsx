@@ -1,4 +1,4 @@
-'use client';
+import Link from 'next/link'
 
 const Card = ({ name, desc, img, onSelect, isSelected }) => {
   return (
@@ -7,15 +7,12 @@ const Card = ({ name, desc, img, onSelect, isSelected }) => {
         <img src={img} alt={name} className='h-80 w-full object-cover' />
       </figure>
       <div className='card-body '>
-        <h2 className='card-title text-white'>{name}</h2>
-        <p className='text-white'>{desc}</p>
+        <h2 className='card-title text-white font-beaufort'>{name}</h2>
+        <p className='text-white font-Spiegel'>{desc}</p>
         <div className='card-actions mt-5 justify-end'>
-          <button
-            className={`btn ${isSelected ? 'btn-success' : 'btn-primary'}`}
-            onClick={onSelect}
-          >
-            {isSelected ? 'This is Mine' : 'I want this!'}
-          </button>
+        <Link href='/champion'>
+          <button className="btn btn-info">Read</button>
+        </Link>
         </div>
       </div>
     </div>

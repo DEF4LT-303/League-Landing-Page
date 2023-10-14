@@ -9,13 +9,6 @@ const header = () => {
       }}
     >
       <div className='hero-overlay bg-opacity-60'></div>
-      <div className='sm:flex hidden'>
-        <img
-          src='lol.svg'
-          alt='Logo'
-          className='absolute top-4 left-4 h-12 w-12'
-        />
-      </div>
       <div className='hero-content text-center text-[#F0E6D2]'>
         <div className='max-w-lg'>
           <h1 className='mb-5 text-5xl font-bold font-beaufort'>League Of Legends</h1>

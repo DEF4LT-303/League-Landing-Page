@@ -21,9 +21,9 @@ const RootLayout = ({ children }) => {
       <body>
         <Nav onThemeChange={handleThemeChange} />
         <div className=''>
-          <div className='gradient' />
+          <div className='' />
         </div>
-        <main className='app'>{children}</main>
+        <main className=''>{children}</main>
       </body>
     </html>
   );
