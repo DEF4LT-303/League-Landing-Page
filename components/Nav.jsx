@@ -34,8 +34,6 @@ const Nav = ({ onThemeChange }) => {
       <div className="flex-none hidden lg:block font-spiegel">
         <ul className="menu menu-horizontal">
           {/* Navbar menu content here */}
-          <li><a>Navbar Item 1</a></li>
-          <li><a>Navbar Item 2</a></li>
           <li>
             <details>
               <summary>Theme</summary>
